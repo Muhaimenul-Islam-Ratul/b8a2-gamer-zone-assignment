@@ -288,6 +288,85 @@ border-radius: 50px;
 
 
 .footer-all-icon li:hover{
+    cursor:pointer;
+    
     border: 3px solid palevioletred;
     border-radius: 50px;
+}
+
+/* media quari */
+/* responsive for Mobile */
+@media screen and (max-width:425px){
+    
+    nav{
+        flex-wrap: wrap;
+    
+    }
+    .gamer{
+        padding: 109px 596px 69px 429px;
+    }
+    .nav-link{
+        padding: 70px 425px;
+        flex-direction: column;
+    }
+
+    .banner-section{
+        margin-left: 145px ;
+        margin-right: 66px;
+        flex-direction: column;
+    }
+    .top1{
+        width: 901px;
+height: 700px;
+        /* padding: 30px 66px 36px 145px; */
+        text-align: center;
+    }
+    .btn1{
+        margin-left: 237px;
+        margin-bottom: 167px;
+    }
+    .btn2{
+        margin-right: 165px;
+        margin-bottom: 165px;
+    }
+
+    .banner-image{
+        margin-right: 192px;
+        margin-left: 209px;
+    }
+
+
+
+
+
+
+    .section-1{
+        margin: 163px 225px 0px 232px;
+        align-items: center;
+        
+    }
+    .section-1 h2,p{
+        width: 655px;
+        height: 56px;
+    }
+    
+.online-game{
+    padding: 81px 239px 0px 270px;
+}
+
+
+    .main-pic{
+        flex-direction: column;
+        text-align: center;
+    }
+    .play-game-online{
+        flex-direction: column;
+    }
+    .footer-all-icon{
+        grid-template-columns: repeat(3 ,1fr);
+    }
+    .footer-end{
+        width: auto;
+        max-width: 100%;
+    }
 }
