@@ -352,21 +352,25 @@ height: 700px;
     
 .online-game{
     padding: 81px 239px 0px 270px;
+    align-items: left;
 }
 
 
     .main-pic{
         flex-direction: column;
-        text-align: center;
     }
+    
     .play-game-online{
         flex-direction: column;
+        width: 900px;
+height: 835px;
     }
     .footer-all-icon{
+        width: 425px;
         grid-template-columns: repeat(3 ,1fr);
     }
     .footer-end{
-        width: auto;
-        max-width: 100%;
+        width: 1112px;
+height: 1232px;
     }
 }
