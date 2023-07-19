@@ -168,3 +168,113 @@ font-weight: 400;
     gap: 24px;
 
 }
+/* play game online section */
+.play-game-online{
+    margin: 120px 240px 0px 238px;
+    display: flex;
+    
+}
+.online-game-img{
+    width: 100%;
+    height: 100%;
+
+}
+.img2{
+    position: relative;
+    bottom: 250px;
+    right: 180px;
+    float: right;
+}
+.play-game-online-dis{
+    text-align: center;
+}
+.play-game-online h2{
+    width: 426px;
+    font-size: 48px;
+font-weight: 700;
+   color: black;
+
+}
+.play-game-online .play-game-online-dis h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-game-online-dis{
+    width: 483px;
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+/* fotter icon */
+.footer-all-icon{
+    padding: 120px 240px 120px 240px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    gap: 39px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.footer-all-icon li{
+    display: flex;
+    gap: 10px;
+    border: 2px solid red;
+    border-radius: 50px;
+background: #FFF;
+color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+align-items: center;
+}
+.footer-all-icon li img{
+    width: 60px;
+height: 60px;
+border-radius: 50px;
+}
+/* last footer */
+.footer-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: #0B0223;
+
+}
+.footer-end .gamer p{
+    color: #FFF;
+}
+.div1
+{   padding-bottom: 66px;
+    display: flex;
+    gap: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFF;
+}
+.div2
+{
+    padding-bottom:74px;
+    display: flex;
+ gap: 40px;
+}
+.div3
+{
+    display: flex;
+    gap:60px;
+    color: rgba(255, 255, 255, 0.60);
+
+}
+.footer-end .gamer{
+    padding:120px 833px 56px 833px;
+}
+.bottom-text{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
