@@ -221,7 +221,6 @@ text-align: left;
 .footer-all-icon li{
     display: flex;
     gap: 10px;
-    border: 2px solid red;
     border-radius: 50px;
 background: #FFF;
 color: #0B0223;
@@ -277,4 +276,18 @@ border-radius: 50px;
     font-weight: 500;
     padding-bottom: 100px;
     padding-top: 20px;
+}
+/* hover section */
+.online-game img:hover{
+    opacity: 0.5;
+    border: 3px solid red;
+    border-radius: 16px;
+
+}
+
+
+
+.footer-all-icon li:hover{
+    border: 3px solid palevioletred;
+    border-radius: 50px;
 }
